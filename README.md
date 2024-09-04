@@ -15,7 +15,7 @@
 
 ### Initialize and Re-parameterize
 
-```
+```python
 from PIL import Image
 
 import torch
@@ -43,7 +43,7 @@ torch.save(reparam_model.state_dict(), "weights/s0_fused.pt") # save re-paramete
 
 ### Model Inference using re-parameterized(fused) model
 
-```
+```python
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = mobileone_s0(inference_mode=True) # initialize the model in inference mode
 
@@ -58,7 +58,7 @@ INFO: Creating model without pre-trained weights.
 <All keys matched successfully>
 ```
 
-```
+```python
 # preprocessing input image
 def preprocess_image(image_path):
     transform = transforms.Compose([
