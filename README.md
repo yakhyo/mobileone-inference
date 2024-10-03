@@ -1,5 +1,8 @@
 # MobileOne: An Improved One millisecond Mobile Backbone
 
+![Downloads](https://img.shields.io/github/downloads/yakhyo/mobileone-inference/total) [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/yakhyo/mobileone-inference)
+
+
 > [!NOTE]  
 > This is only inference code
 
